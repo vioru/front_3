@@ -100,7 +100,7 @@ function Form() {
 
       {error ? (
             <h4 style={{ color: "red" }}>
-              Debes colocar la información correctamente y completa
+              Debes colocar la información correctamente ,completa y no olvides escoger tu pokemon
             </h4>
           ) : null}
     </form>
