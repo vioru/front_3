@@ -24,7 +24,7 @@ function Form() {
         if (
           user.nombreUsuario.trim().length >= 3 &&
           user.nombreCompleto.trim().includes(" ") &&
-          user.nombreCompleto.trim().length >= 3  &&
+          user.nombreCompleto.trim().length >= 6  &&
           user.pokemonElejido !== ""  
         ) {    console.log("entre a el if")
           setShow(true);
