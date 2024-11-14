@@ -96,7 +96,7 @@ function Form() {
         }
       /> */}
 
-      <button type="submit">Submit</button>
+      <button type="submit">Enviar</button>
 
       {error ? (
             <h4 style={{ color: "red" }}>
