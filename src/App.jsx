@@ -1,16 +1,19 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import './App.css'
 import Card from './components/Card'
 import Form from './components/Form'
 import MessageHome from './components/MessageHome'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className='App'>
-    <MessageHome/>
-    <Form/>
+    {/* <MessageHome/> */}
+    {/* <Form/> */}
+    <div className ="card">
+    <Card />
+    </div>
+   
  
 
     </div>
